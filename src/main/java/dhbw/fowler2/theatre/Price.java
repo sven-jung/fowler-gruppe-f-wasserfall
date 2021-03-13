@@ -39,3 +39,115 @@ class ComedyPrice extends Price {
     }
 
 }
+
+class HistoryPrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
+
+class PastoralPrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
+
+class PastoralComicalPrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
+
+class HistoricalPastoralPrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
+
+class TragicalHistoricalPrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
+
+class TragicalcomicalhistoricalpastoralPrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
+
+class SceneIndividablePrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
+
+class PoemUnlimitedPrice extends Price {
+
+    @Override
+    int getCharge(int audience) {
+        var total = 30000;
+        if (audience > 20) {
+            total += 10000 + 500 * (audience - 20);
+        }
+        
+        return total + 300 * audience;
+    }
+
+}
