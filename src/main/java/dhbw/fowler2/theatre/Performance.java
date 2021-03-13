@@ -9,4 +9,17 @@ public class Performance {
         this.playID = playID;
         this.audience = audience;
     }
+    
+    public int getCharge(Play play) {
+
+        return play.getCharge(audience);
+
+    }
+    
+    public int getVolumeCredits(Play play) {
+
+        return play.getVolumeCredits(audience);
+        
+    }
+    
 }
